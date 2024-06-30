@@ -1,0 +1,221 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{fontspec}
+\usepackage{fontawesome5}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    { #1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadings}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {#1} & \small#2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\fontspec[Path = fonts/raleway/]{Raleway-Bold}\selectfont 
+
+\begin{document}
+\setmainfont[Color=primary, 
+% Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-RegIta}
+Path = fonts/raleway/,BoldItalicFont=Raleway-Bold,BoldFont=Raleway-Bold,ItalicFont=Raleway-Medium]{Raleway-Medium}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \fontspec[Path = fonts/lato/]{Lato-Bol}\textbf{\Large Naveen Kumar} & \fontspec[Path = fonts/raleway/]{Raleway-Light}Email : \href{mailto:namangupta.cse@gmail.com}{nnkumar2468@gmail.com}\\  & Mobile : +918147951899\\ 
+  \href{https://github.com/nk-naveen}{\faIcon[solid]{github}} \hspace{1mm}
+  \href{https://www.linkedin.com/in/naveen-kumar-07b1071bb}{\faIcon[solid]{linkedin}} \hspace{1mm}
+%   \href{https://dev.to/InsaneNaman}{\faIcon[solid]{dev}} 
+  
+
+  
+\end{tabular*}
+
+\section{Tech Skills} 
+%  
+ \resumeSubHeadingListStart
+   {
+\textbf{• Languages }{: Python, Java  \newline 
+     \textbf{• Technologies }{: AWS, DevOps, Selenium, Linux, Git, Jenkins, Docker, Jira, }
+     }
+   }
+ \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {DataGrokr Analytics Private Limited }{Bangalore, KA}
+      {DevOps Enginner}{Jan 2023 - Present}
+      \resumeItemListStart
+      
+        \resumeItem
+         
+          {Experience in creating, configuring and maintaining Amazon EC2 virtual servers.}
+
+        \resumeItem
+        {Knowledge in Cloud watch, Elastic IP and managing AWS infrastructure, Security Groups on AWS. }
+        \resumeItem
+        {knowledge on deploying code to a virtual machine in AWS.}
+         \resumeItem
+        {Experience working with version control system GIT and used Source code management tools GitHub including command line applications}
+        \resumeItem
+        {Hands-on experience with Continuous Integration and Continuous deployment using the tools Jenkins, Git, and Docker.}
+         \resumeItem
+        {Experience in using Amazon S3 to upload multiple project files online and used IAM to create multiple access to various users and groups.}
+         \resumeItem
+         {Knowledge in using Load balancers to route incoming traffic to number of downstream servers.}
+          \resumeItem
+        {Experience in implementing CI/CD pipeline cycle in AWS by using AWS Code Commit, AWS CodeBuild and AWS CodeDeploy.}
+        
+         \resumeItem
+         {Experience in multi platforms like UNIX, Linux and Windows}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Code Pro Technologies}{Hubli, KA}
+      {Software Engineer Intern}{May 2022 - july 2022}
+      \resumeItemListStart
+        \resumeItem
+          { web development in python flask.}
+        \resumeItem
+          {developed static web pages for real Estate website}
+         \resumeItem
+          {real estate is CRM website which helps for buyers and maintain real estate data}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATES-----------------
+\section{Certificates}
+  \resumeSubHeadingListStart
+  \resumeSubItem
+    {\textbf{AWS Certified Cloud Practitioner}}
+      { \href{https://www.credly.com/badges/3449f000-e3a6-41b8-a78b-961a53d58f11/public_url}{\textbf{Badge}}}\\
+    \resumeSubItem
+    
+    {\textbf{DevOps on AWS Specialization}}
+      {\href{https://www.coursera.org/account/accomplishments/specialization/certificate/FGUQG279Q9SH}{\textbf{Link}}}
+            \resumeItemListStart
+            \item{
+                 {Devops on AWS: Code, Build, and Test |  Release and Deploy |  Operate and Monitor
+               }}
+            \resumeItemListEnd
+    \resumeSubItem
+    {\textbf{Java Programming for Complete Beginners}}
+      { \href{https://www.udemy.com/certificate/UC-f2d006c4-a31c-47ce-92fb-ff05bb721feb/}{\textbf{Link}}}\\
+    \resumeSubItem
+    {\textbf{Introduction to Git and GitHub (Google IT Automation with Python)}}
+      {\href{https://www.coursera.org/account/accomplishments/certificate/ZFVQXNPMQGUA}{\textbf{Link}}}
+  \resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+  \resumeSubheadings
+      {\textbf{Department elective management system} | \emph{Tech Stack}: PHP, HTML, CSS, MYSQL}{ - \href{https://drive.google.com/file/d/1SQaIAo7VsHA2k5j8iTGfar9EX7BMDAMe/view?usp=sharing}{\textbf{snapshot}}}
+      \resumeItemListStart
+        \resumeItem
+          {developed website for department o help students to enroll to elective courses}
+        
+      \resumeItemListEnd
+
+    \resumeSubheadings
+      {\textbf{Recruiter system} | \textit{Tech Stack}: PHP, MYSql, AJax }{- \href{https://drive.google.com/file/d/1rpvRC8VoeL208a6x7IwOTf0UxrDc47HE/view?usp=sharing}{\textbf{snapshot}}}
+      \resumeItemListStart
+        \resumeItem
+          {website for a recruiter to manage his companines}
+      \resumeItemListEnd
+
+      
+      \resumeSubheadings
+      {\textbf{Chat Server} | \emph{Tech Stack}: Java }
+      { - \href{}{\textbf{}}}
+      \resumeItemListStart
+        \resumeItem
+          {Users can interact to each other. They can share information to all others in server}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{KLS Gogte Institute of Technology}}{Belgaum, India}
+      {Master of Computer Applications}{Dec. 2020 - July. 2022}
+    \resumeSubheading
+      {\textbf{Pc Jabin Science College}}{Hubli, India}
+      {Bachelor of Computer science }{july. 2017 - Oct. 2022}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
